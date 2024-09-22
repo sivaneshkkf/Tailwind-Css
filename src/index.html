@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link href="./output.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet">
+
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+            <script src="https://cdn.tailwindcss.com"></script>
+        <style type="text/tailwindcss">
+            @layer components {
+                .lihover{
+                    @apply cursor-pointer text-xs hover:text-green-500 transition-all duration-200
+                }
+            }
+        </Style>
+    </head>
+    <body class="bg-zinc-900 p-5">
+        <div class="text-white flex">
+            <h4 class="font-bold">D0512</h4>
+            <div class="ml-5">
+                <ul class="text-sm font-semibold flex items-center gap-5 h-full">
+                    <li class="lihover">Home</li>
+                    <li class="lihover">Top picks</li>
+                    <li class="lihover">Give Ways</li>
+                    <li class="lihover">Just Anounced</li>
+                    <li class="lihover">All cities</li>
+                </ul>
+            </div>
+            <div class="ml-auto">
+                <ul class="text-sm font-semibold flex items-center gap-5">
+                    <li class="lihover"><span class="material-symbols-outlined">
+                        search
+                        </span></li>
+                        <li class="lihover">DoMore</li>
+                        <li class="lihover"><span class="material-symbols-outlined">
+                            favorite
+                            </span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="w-xl m-10">
+            <img src="./image.png" alt="img" >
+        </div>
+    </body>
+</html>
